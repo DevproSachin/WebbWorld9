@@ -84,9 +84,9 @@ mode.addEventListener('click',function(){
  closemenu.addEventListener('click' , function(){
      overlay.classList.remove('active');
  });
- 
+
  document.querySelectorAll('.mobile-link').forEach(link => {
     link.addEventListener('click', () => {
-      mobileMenu.classList.remove('active');
+      overlay.classList.remove('active');
     });
   });
