@@ -650,6 +650,9 @@ span.footer-cpy {
 .mob-menu-items{
    display:none;
 }
+.mobile-menu-content {
+    display: none;
+}
 @media screen and (max-width:767px){
    .mobile-nav {
         display: block;
