@@ -90,3 +90,18 @@ mode.addEventListener('click',function(){
       overlay.classList.remove('active');
     });
   });
+
+
+  //all tweens run in direct succession
+let tl = gsap.timeline();
+tl.from(".logo", {
+  duration: 1,
+   y:-20,
+   opacity:0
+  })
+tl.from("nav ul li ", {
+    duration: 2,
+     y: -20,
+     opacity: 0,
+     stagger:0.3
+  })
